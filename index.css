@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Graduate', cursive;
+  display: flex;
+  margin: 0;
+  height: 100%;
+}
+
+.left-area, 
+.right-area {
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.left-area {
+  background: #0d552a;
+}
+
+.right-area {
+  background: #e63847;
+}
+
+.welcome {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 72px;
+  height: 72px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
